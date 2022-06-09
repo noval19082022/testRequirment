@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite" parallel="tests" thread-count="5">
+
+	<parameter name="browserName" value="chrome" />
+
+	<test name="All">
+		<classes>
+			<class name="runners.mamikos.AllTestRunner" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
